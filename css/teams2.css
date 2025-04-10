@@ -325,6 +325,13 @@ float: left;
     opacity: 0;
     transform: translateX(-500px);
 }
+
+.im5
+{
+    opacity: 0;
+    transform: scale(0.1);
+}
+
 .im6
 {
     opacity: 0;
@@ -336,11 +343,37 @@ float: left;
     transform: scale(0.1);
    
 }
-.im5
-{
+
+.ani7 {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+  
+.im7 {
     opacity: 0;
     transform: scale(0.1);
 }
+  
+.ani8 {
+    opacity: 0;
+    transform: scale(0.1);
+}
+  
+.im8 {
+    opacity: 0;
+    transform: translateY(500px);
+}
+  
+.ani9 {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+  
+.im9 {
+    opacity: 0;
+    transform: scale(0.1);
+}
+
 .fa{
     padding: 3%;
 }
@@ -797,7 +830,7 @@ float: left;
     .copyright a {
         font-size: 3vmin;
     }
-    .facultyright,.facultyimageright,.facultyanimation1,.facultyanimation2,.sectioncoreteam .coreteamheading,.ani1,.ani2,.ani3,.ani4,.ani5,.ani6,.im1,.im2,.im3,.im4,.im5,.im6,
+    .facultyright,.facultyimageright,.facultyanimation1,.facultyanimation2,.sectioncoreteam .coreteamheading,.ani1,.ani2,.ani3,.ani4,.ani5,.ani6,.ani7,.ani8,.ani9,.im1,.im2,.im3,.im4,.im5,.im6,.im7,.im8,.im9
     .hcontent,.conteam,.hevent,.eveteam,.hpublic,.pubteam,.htech,.tecteamm,.hvisual,.visteam,.hsocial,.socteam
     {
         opacity: 1;

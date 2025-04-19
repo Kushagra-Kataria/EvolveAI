@@ -6,7 +6,27 @@
     color: black;
     overflow-x: hidden;
 }
-
+.homepagebutton
+{
+    background-color:  black;
+    font-weight: 400;
+    font-size: 3vmin;
+    font-family: "Inter", sans-serif;
+    color: white;
+    padding: 2vmin 5vmin;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 4vh;
+    transition: 0.3s ease-in;
+    border: 1px solid rgb(23, 25, 21);
+}
+.homepagebutton:hover
+{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
 
 
 html {
@@ -105,13 +125,14 @@ nav ul li a:hover {
 
 .contentevent1 {
     position: relative;
-    left: 10vw;
+    left: 5vw;
+    text-align: justify !important; 
     width: 40vw;
 }
 
 @media (max-width: 450px) {
     .contentevent {
-        margin-top: 10vh;
+        /* margin-top: 10vh; */
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -122,6 +143,9 @@ nav ul li a:hover {
         margin-top: 3vh;
         margin-right: 15vw;
         width: 50vw;
+    }
+    .bg-black {
+        height: 125vh !important;
     }
 }
 
@@ -144,7 +168,7 @@ nav ul li a:hover {
 @media (max-width: 450px) {
     .eventsimage {
         border-radius: 20px;
-        width: 80vw;
+        width: 80vw !important;
         object-fit: contain;
     }
     
@@ -179,7 +203,7 @@ nav ul li a:hover {
 }
 
 .sectionpastevents {
-    margin-top: 30vh;
+    margin-top: 35vh;
     width: 100vw;
 }
 
@@ -500,13 +524,38 @@ nav ul li a:hover {
         left: 0vw;
         text-align: center;
     }
-.bg-black{
-    height: 125vh;
-}
-
-    .contentevent {
-        top: 20vh;
+    .bg-black{
+        height: 185vh;
     }
+
+    .contentevent1{
+        width: 80vw;
+        margin-top: 5vh;
+        font-size: 4vmin;
+        margin-right: 10vw;
+        
+    }
+    .contentevent {
+        /* top: 20vh; */
+        display: flex;
+        /* width: 100vw; */
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .eventsimage {
+        border-radius: 20px;
+        width: 70vw;
+        object-fit: contain;
+    }
+
+    .background {
+        padding: 5vmin;
+        position: relative;
+        top: 0vh;
+    }
+
     .headingpastevents {
         right: 0vw;
         text-align: center !important;
